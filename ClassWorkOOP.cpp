@@ -59,7 +59,7 @@ public:
         if (outFile.is_open()) {
             outFile << x << " " << y << " " << z;
             outFile.close();
-            cout << "Point saved to file." << endl;
+            cout << "Saved to file." << endl;
         }
         else {
             cout << "Error:" << endl;
